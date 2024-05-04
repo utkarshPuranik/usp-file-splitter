@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USP.FileSplitter", "USP.FileSplitter\USP.FileSplitter.csproj", "{A325BB01-7EC0-4A9A-92D5-9E66CFD18517}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E02F0A4E-03FC-4F5A-A612-75697AF5C5FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USP.FileSplitter.IntegrationTests", "USP.FileSplitter.IntegrationTests\USP.FileSplitter.IntegrationTests.csproj", "{AE38EA3A-4934-4AF0-A9BA-0823C75F5E06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A325BB01-7EC0-4A9A-92D5-9E66CFD18517}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A325BB01-7EC0-4A9A-92D5-9E66CFD18517}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A325BB01-7EC0-4A9A-92D5-9E66CFD18517}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A325BB01-7EC0-4A9A-92D5-9E66CFD18517}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE38EA3A-4934-4AF0-A9BA-0823C75F5E06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE38EA3A-4934-4AF0-A9BA-0823C75F5E06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE38EA3A-4934-4AF0-A9BA-0823C75F5E06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE38EA3A-4934-4AF0-A9BA-0823C75F5E06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AE38EA3A-4934-4AF0-A9BA-0823C75F5E06} = {E02F0A4E-03FC-4F5A-A612-75697AF5C5FF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F63657E-E428-4EEA-A280-DD7447A484AF}
+	EndGlobalSection
+EndGlobal

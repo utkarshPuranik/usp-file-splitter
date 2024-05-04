@@ -1,0 +1,12 @@
+{
+    "profiles": {
+        "Split File": {
+            "commandLineArgs": "split \"C:/DEVELOPMENT/Experiments/Test/Body.html\" 3 \"C:/DEVELOPMENT/Experiments/Test/output\"",
+            "commandName": "Project"
+        },
+        "Combine File": {
+            "commandLineArgs": "combine \"C:/DEVELOPMENT/Experiments/Test/output\" \"474cf8ee4a457cefa7629931cc33605b4298c55f9f241d76c39187025d3da18e\"",
+            "commandName": "Project"
+        }
+    }
+}
